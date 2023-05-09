@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ReferenceImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5589526789863314335
+  m_GuidHigh: 3006196785909381296
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4882487922668040185
+      m_GuidHigh: 16626149798391319684
+    m_SerializedTextureGuid:
+      m_GuidLow: 5882860886350849437
+      m_GuidHigh: 617548669291660683
+    m_Size: {x: 0.2, y: 0.15058824}
+    m_SpecifySize: 1
+    m_Name: ParalleleTrain
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5384906627789758486
+      m_GuidHigh: 12537984568638575249
+    m_SerializedTextureGuid:
+      m_GuidLow: 16601461352182379720
+      m_GuidHigh: 14417583858056824522
+    m_Size: {x: 0.2, y: 0.15058824}
+    m_SpecifySize: 1
+    m_Name: ParalleleTerrainJeu
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5039904460450872173
+      m_GuidHigh: 17804273760583651769
+    m_SerializedTextureGuid:
+      m_GuidLow: 1712598730567729175
+      m_GuidHigh: 17923508053476293753
+    m_Size: {x: 0.2, y: 0.15058824}
+    m_SpecifySize: 1
+    m_Name: CroisementHopital
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5644821325196690025
+      m_GuidHigh: 451393748079826338
+    m_SerializedTextureGuid:
+      m_GuidLow: 12142999036866036205
+      m_GuidHigh: 3768597165718845993
+    m_Size: {x: 0.2, y: 0.15058824}
+    m_SpecifySize: 1
+    m_Name: CroisementBatimentRouge
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4856600464504767096
+      m_GuidHigh: 7835918933972941184
+    m_SerializedTextureGuid:
+      m_GuidLow: 11719712150408748382
+      m_GuidHigh: 9673905596527424202
+    m_Size: {x: 0.2, y: 0.15058824}
+    m_SpecifySize: 1
+    m_Name: CentreVilleImmeuble
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5256565957626882228
+      m_GuidHigh: 14908663394391789990
+    m_SerializedTextureGuid:
+      m_GuidLow: 9130121365601270491
+      m_GuidHigh: 6331780615668828472
+    m_Size: {x: 0.2, y: 0.15058824}
+    m_SpecifySize: 1
+    m_Name: CentreVilleEcole
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4741846755832959862
+      m_GuidHigh: 6641525254833793
+    m_SerializedTextureGuid:
+      m_GuidLow: 5171488736171206259
+      m_GuidHigh: 16937811237676761642
+    m_Size: {x: 0.2, y: 0.265625}
+    m_SpecifySize: 1
+    m_Name: CentreVilleParc
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5099528417229638905
+      m_GuidHigh: 4230318997196040341
+    m_SerializedTextureGuid:
+      m_GuidLow: 10008172505103842794
+      m_GuidHigh: 83837296835515160
+    m_Size: {x: 0.2, y: 0.15058824}
+    m_SpecifySize: 1
+    m_Name: CentreVilleFontaine
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4728060264881891540
+      m_GuidHigh: 481364941187885714
+    m_SerializedTextureGuid:
+      m_GuidLow: 9985704374211916888
+      m_GuidHigh: 5692189338872150744
+    m_Size: {x: 0.2, y: 0.15058824}
+    m_SpecifySize: 1
+    m_Name: CentreVilleZoo
+    m_Texture: {fileID: 0}
