@@ -501,5 +501,72 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  cubetest: {fileID: 2517473264250501314, guid: 47771f23dc56bf74590f34e08a55e8f0,
-    type: 3}
+--- !u!1001 &8624785216588504880
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1660417219871516677, guid: a71e6e0d85a288d4f93a975d2f8ffaae,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1660417219871516677, guid: a71e6e0d85a288d4f93a975d2f8ffaae,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1660417219871516677, guid: a71e6e0d85a288d4f93a975d2f8ffaae,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1660417219871516677, guid: a71e6e0d85a288d4f93a975d2f8ffaae,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1660417219871516677, guid: a71e6e0d85a288d4f93a975d2f8ffaae,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1660417219871516677, guid: a71e6e0d85a288d4f93a975d2f8ffaae,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1660417219871516677, guid: a71e6e0d85a288d4f93a975d2f8ffaae,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1660417219871516677, guid: a71e6e0d85a288d4f93a975d2f8ffaae,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1660417219871516677, guid: a71e6e0d85a288d4f93a975d2f8ffaae,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1660417219871516677, guid: a71e6e0d85a288d4f93a975d2f8ffaae,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1660417219871516677, guid: a71e6e0d85a288d4f93a975d2f8ffaae,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2896343495524735206, guid: a71e6e0d85a288d4f93a975d2f8ffaae,
+        type: 3}
+      propertyPath: m_Name
+      value: TrashTruck Center
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a71e6e0d85a288d4f93a975d2f8ffaae, type: 3}
