@@ -13,8 +13,7 @@ public class TrackedImage : MonoBehaviour
     [Header("Tableau de map")]
     [SerializeField] private GameObject[] mapArray;
 
-    private GameObject[] prefabArray;
-    public GameObject cubetest;
+    [SerializeField] private GameObject[] prefabArray = new GameObject[9];
 
     private void OnEnable()
     {
@@ -30,39 +29,39 @@ public class TrackedImage : MonoBehaviour
     {
         foreach (ARTrackedImage trackedImage in args.added)         //Une image est détecté
         {
-            if (trackedImage.referenceImage.name == "ParalleleTrain")
+            if (trackedImage.referenceImage.name == "ParalleleTrain" && prefabArray[0] == null)
             {
                 prefabArray[0] = Instantiate(mapArray[0], trackedImage.transform.position, trackedImage.transform.rotation);
             }
-            if (trackedImage.referenceImage.name == "ParalleleTerrainJeu")
+            if (trackedImage.referenceImage.name == "ParalleleTerrainJeu"&& prefabArray[1] == null)
             {
                 prefabArray[1] = Instantiate(mapArray[1], trackedImage.transform.position, trackedImage.transform.rotation);
             }
-            if (trackedImage.referenceImage.name == "CroisementHopital")
+            if (trackedImage.referenceImage.name == "CroisementHopital" && prefabArray[2] == null)
             {
                 prefabArray[2] = Instantiate(mapArray[2], trackedImage.transform.position, trackedImage.transform.rotation);
             }
-            if (trackedImage.referenceImage.name == "CroisementBatimentRouge")
+            if (trackedImage.referenceImage.name == "CroisementBatimentRouge" && prefabArray[3] == null)
             {
                 prefabArray[3] = Instantiate(mapArray[3], trackedImage.transform.position, trackedImage.transform.rotation);
             }
-            if (trackedImage.referenceImage.name == "CentreVilleImmeuble")
+            if (trackedImage.referenceImage.name == "CentreVilleImmeuble" && prefabArray[4] == null)
             {
                 prefabArray[4] = Instantiate(mapArray[4], trackedImage.transform.position, trackedImage.transform.rotation);
             }
-            if (trackedImage.referenceImage.name == "CentreVilleEcole")
+            if (trackedImage.referenceImage.name == "CentreVilleEcole" && prefabArray[5] == null)
             {
                 prefabArray[5] = Instantiate(mapArray[5], trackedImage.transform.position, trackedImage.transform.rotation);
             }
-            if (trackedImage.referenceImage.name == "CentreVilleParc")
+            if (trackedImage.referenceImage.name == "CentreVilleParc" && prefabArray[6] == null)
             {
                 prefabArray[6] = Instantiate(mapArray[6], trackedImage.transform.position, trackedImage.transform.rotation);
             }
-            if (trackedImage.referenceImage.name == "CentreVilleFontaine")
+            if (trackedImage.referenceImage.name == "CentreVilleFontaine" && prefabArray[7] == null)
             {
                 prefabArray[7] = Instantiate(mapArray[7], trackedImage.transform.position, trackedImage.transform.rotation);
             }
-            if (trackedImage.referenceImage.name == "CentreVilleZoo")
+            if (trackedImage.referenceImage.name == "CentreVilleZoo" && prefabArray[8] == null)
             {
                 prefabArray[8] = Instantiate(mapArray[8], trackedImage.transform.position, trackedImage.transform.rotation);
             }
@@ -80,7 +79,7 @@ public class TrackedImage : MonoBehaviour
             }
             if (trackedImage.referenceImage.name == "ParalleleTerrainJeu")
             { 
-                Vector3 position = trackedImage.transform.position;
+                Vector3 position = trackedImage.transform.position ;
                 Quaternion rotation = trackedImage.transform.rotation;
 
                 prefabArray[1].transform.position = position;
@@ -104,7 +103,6 @@ public class TrackedImage : MonoBehaviour
             }
             if (trackedImage.referenceImage.name == "CentreVilleImmeuble")
             {
-                Instantiate(cubetest, transform.position, Quaternion.identity);
                 Vector3 position = trackedImage.transform.position;
                 Quaternion rotation = trackedImage.transform.rotation;
 

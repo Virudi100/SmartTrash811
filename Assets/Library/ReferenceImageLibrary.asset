@@ -23,8 +23,8 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 5882860886350849437
       m_GuidHigh: 617548669291660683
-    m_Size: {x: 0.2, y: 0.15058824}
-    m_SpecifySize: 1
+    m_Size: {x: 0.1, y: 0.07529412}
+    m_SpecifySize: 0
     m_Name: ParalleleTrain
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
@@ -33,8 +33,8 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 16601461352182379720
       m_GuidHigh: 14417583858056824522
-    m_Size: {x: 0.2, y: 0.15058824}
-    m_SpecifySize: 1
+    m_Size: {x: 0.1, y: 0.07529412}
+    m_SpecifySize: 0
     m_Name: ParalleleTerrainJeu
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
@@ -43,8 +43,8 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 1712598730567729175
       m_GuidHigh: 17923508053476293753
-    m_Size: {x: 0.2, y: 0.15058824}
-    m_SpecifySize: 1
+    m_Size: {x: 0.1, y: 0.07529412}
+    m_SpecifySize: 0
     m_Name: CroisementHopital
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
@@ -53,8 +53,8 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 12142999036866036205
       m_GuidHigh: 3768597165718845993
-    m_Size: {x: 0.2, y: 0.15058824}
-    m_SpecifySize: 1
+    m_Size: {x: 0.1, y: 0.07529412}
+    m_SpecifySize: 0
     m_Name: CroisementBatimentRouge
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
@@ -63,8 +63,8 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 11719712150408748382
       m_GuidHigh: 9673905596527424202
-    m_Size: {x: 0.2, y: 0.15058824}
-    m_SpecifySize: 1
+    m_Size: {x: 0.1, y: 0.07529412}
+    m_SpecifySize: 0
     m_Name: CentreVilleImmeuble
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
@@ -73,8 +73,8 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 9130121365601270491
       m_GuidHigh: 6331780615668828472
-    m_Size: {x: 0.2, y: 0.15058824}
-    m_SpecifySize: 1
+    m_Size: {x: 0.1, y: 0.07529412}
+    m_SpecifySize: 0
     m_Name: CentreVilleEcole
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
@@ -83,8 +83,8 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 5171488736171206259
       m_GuidHigh: 16937811237676761642
-    m_Size: {x: 0.2, y: 0.265625}
-    m_SpecifySize: 1
+    m_Size: {x: 0.1, y: 0.1328125}
+    m_SpecifySize: 0
     m_Name: CentreVilleParc
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
@@ -93,8 +93,8 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 10008172505103842794
       m_GuidHigh: 83837296835515160
-    m_Size: {x: 0.2, y: 0.15058824}
-    m_SpecifySize: 1
+    m_Size: {x: 0.1, y: 0.07529412}
+    m_SpecifySize: 0
     m_Name: CentreVilleFontaine
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
@@ -103,7 +103,7 @@ MonoBehaviour:
     m_SerializedTextureGuid:
       m_GuidLow: 9985704374211916888
       m_GuidHigh: 5692189338872150744
-    m_Size: {x: 0.2, y: 0.15058824}
-    m_SpecifySize: 1
+    m_Size: {x: 0.1, y: 0.07529412}
+    m_SpecifySize: 0
     m_Name: CentreVilleZoo
     m_Texture: {fileID: 0}

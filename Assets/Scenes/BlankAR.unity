@@ -491,5 +491,15 @@ MonoBehaviour:
   - {fileID: 2612544768212825774, guid: 09a9af4135748ad41843966f7eda454b, type: 3}
   - {fileID: 38948776542172545, guid: e7e909dd46b2fc7469fddedada102673, type: 3}
   - {fileID: 9211639801941266670, guid: d490bf223028be84486a6bbbf3a0247a, type: 3}
+  prefabArray:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   cubetest: {fileID: 2517473264250501314, guid: 47771f23dc56bf74590f34e08a55e8f0,
     type: 3}
