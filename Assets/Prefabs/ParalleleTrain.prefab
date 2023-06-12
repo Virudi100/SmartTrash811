@@ -675,7 +675,6 @@ GameObject:
   - component: {fileID: 43550481661310228}
   - component: {fileID: 3564006152943728016}
   - component: {fileID: 517822239579707079}
-  - component: {fileID: 8615996944211712683}
   - component: {fileID: 4400294649533464786}
   m_Layer: 0
   m_Name: RouteCroisementTrain
@@ -749,20 +748,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &8615996944211712683
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4205380321491362885}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4951256896623146305, guid: 453175ad0846b1f44a4fe789e957ee9f, type: 3}
 --- !u!114 &4400294649533464786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -789,9 +774,9 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.16666667
+  m_VoxelSize: 0.016666668
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: f5ca9c24ee3d9a240ac86f31aa5e49eb, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: 107a03edc0358214daa8385908728343, type: 2}
   m_BuildHeightMesh: 0
 --- !u!1 &4847640532726762079
 GameObject:

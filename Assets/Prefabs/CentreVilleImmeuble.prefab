@@ -887,7 +887,6 @@ GameObject:
   - component: {fileID: 7248319803453375354}
   - component: {fileID: 4921731729975667175}
   - component: {fileID: 1281467418735114164}
-  - component: {fileID: 9139037568425268410}
   - component: {fileID: 4500287528750154800}
   m_Layer: 0
   m_Name: RouteCentreVilleImmeuble
@@ -961,20 +960,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &9139037568425268410
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7063965401512132452}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5606910406277369796, guid: 81ce87dbf97562c4ca7c442e1b506993, type: 3}
 --- !u!114 &4500287528750154800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1001,9 +986,9 @@ MonoBehaviour:
   m_OverrideTileSize: 0
   m_TileSize: 256
   m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.16666667
+  m_VoxelSize: 0.016666668
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: 22a1b742b92ae7f41845ddee0d336557, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: a486c0642d80a9b42b928b47344f6fb9, type: 2}
   m_BuildHeightMesh: 0
 --- !u!1 &7144918501255073414
 GameObject:
