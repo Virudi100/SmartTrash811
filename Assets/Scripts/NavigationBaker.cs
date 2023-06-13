@@ -13,10 +13,8 @@ public class NavigationBaker : MonoBehaviour
         surfaces = gameObject.GetComponent<NavMeshSurface>();
     }
 
-    // Use this for initialization
-    void Update()
+    private void FixedUpdate()
     {
-        surfaces.voxelSize = 0.01f;
         surfaces.BuildNavMesh();
         print("Navmesh calculated");
     }

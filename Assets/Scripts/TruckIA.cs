@@ -15,6 +15,10 @@ public class TruckIA : MonoBehaviour
     [SerializeField] private GameObject trash2;
     [SerializeField] private GameObject trash3;
 
+    [SerializeField] private bool trash1Empty = false;
+    [SerializeField] private bool trash2Empty = false;
+    [SerializeField]private bool trash3Empty = false;
+
     private float speed = 1.0f;
 
     // Start is called before the first frame update
@@ -43,44 +47,53 @@ public class TruckIA : MonoBehaviour
 
         if(trash1 != null)
         {
-            if (camion.transform.position == trash1.transform.position)
+            if (new Vector3(camion.transform.position.x, 0,camion.transform.position.z) == new Vector3 (trash1.transform.position.x,0,trash1.transform.position.z))
             {
                 isAtDestination1 = true;
+                trash2Empty = false;
+                trash3Empty = false;
             }
             else
                 isAtDestination1 = false;
         }
         if(trash2 != null)
         {
-            if (camion.transform.position == trash2.transform.position)
+            if (new Vector3(camion.transform.position.x, 0, camion.transform.position.z) == new Vector3(trash2.transform.position.x, 0, trash2.transform.position.z))
             {
                 isAtDestination2 = true;
+                trash1Empty = false;
+                trash3Empty = false;
             }
             else
                 isAtDestination2 = false;
         }
         if(trash3 != null)
         {
-            if (camion.transform.position == trash3.transform.position)
+            if (new Vector3(camion.transform.position.x, 0, camion.transform.position.z) == new Vector3(trash3.transform.position.x, 0, trash3.transform.position.z))
             {
                 isAtDestination3 = true;
+                trash1Empty = false;
+                trash2Empty = false;
             }
             else
                 isAtDestination3 = false;
         }
         /////////////////////////////////////////////
         
-        if(isAtDestination1)
+        if(isAtDestination1 && !trash1Empty)
         {
-
+            trash1.GetComponent<Animator>().SetTrigger("Isvider");
+            trash1Empty = true;
         }
-        if(isAtDestination2)
+        if(isAtDestination2 && !trash2Empty)
         {
-
+            trash2.GetComponent<Animator>().SetTrigger("Isvider");
+            trash2Empty = true;
         }
-        if(isAtDestination3)
+        if(isAtDestination3 && !trash3Empty)
         {
-
+            trash3.GetComponent<Animator>().SetTrigger("Isvider");
+            trash3Empty = true;
         }
     }
 
@@ -89,7 +102,7 @@ public class TruckIA : MonoBehaviour
         
         if (trash1 != null)
         {
-            camion.SetDestination(trash1.transform.position);
+            camion.destination = trash1.transform.position;
             print("going1");
         }
     }
